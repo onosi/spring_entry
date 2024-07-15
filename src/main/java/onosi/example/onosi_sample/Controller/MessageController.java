@@ -25,6 +25,5 @@ public class MessageController {
     public Message postMessages(@RequestBody Message message) {
         messages.add(message);
         return message;
-
     }
 }
